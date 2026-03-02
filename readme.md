@@ -15,7 +15,7 @@
    https://developers.cloudflare.com/network/grpc-connections/
 4. 启动服务
     ```shell
-    git clone https://github.com/yumusb/nezha-new.git
+    git clone https://github.com/cyclestudy/nezha-new.git
     cd nezha-new
     cp .env.example .env  # 按需修改配置
     docker compose up -d
