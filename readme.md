@@ -21,7 +21,7 @@
     docker compose up -d
     ```
 5. 服务端映射到 CF
-   CloudFlare Tunnel 管理页 https://one.dash.cloudflare.com/ 加 1 个 Public hostname 指向 `http://localhost:8080`
+   CloudFlare Tunnel 管理页 https://one.dash.cloudflare.com/ 加 1 个 Public hostname 指向 `http://localhost:9090`
 6. （可选）探针IP加到CF拦截白名单
    由于探针上报日志频繁，且VPS的IP质量参差不齐，可能会被CF误拦截导致无法正常工作。可以添加白名单。
    操作路径：安全性 - WAF - 工具
