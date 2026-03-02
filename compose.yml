@@ -22,7 +22,7 @@ services:
     image: nginx:stable-alpine
     restart: always
     ports:
-      - "127.0.0.1:8080:80"
+      - "127.0.0.1:9090:80"
     volumes:
       - ./conf.d:/etc/nginx/conf.d
     depends_on:
